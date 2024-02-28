@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Impresiones</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
-    <form action="">
-        <input type="text" name="name" id="">
 
+<body>
+
+    <div>
+        <!-- <h1>Papeleria Ross</h1> -->
+        <img src="/IMG/mariposa.png" width="7%">
+        <h2>Bienvenido</h2>
+    </div>
+
+    <form action="save.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="" required>
+        <br><br>
+        <input type="submit" value="Enviar archivo">
     </form>
 </body>
+
 </html>
